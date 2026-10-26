@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "categoria": "Generacion de texto",
+    "prompt": "Redacta un correo formal solicitando una prórroga de entrega basado en: retraso por salud, entrega el viernes y disculpas sinceras.",
+    "salida": " Subject: Solicitud de prórroga de entrega debido a circunstancias de salud\n\nEstimado [Recipiente],\n\nLe escribo con un sentimiento de profunda deseo de satisfacer tus expectativas y, al mismo tiempo, con una gran preocupación debido a una situación personal que me ha afectado de forma significativa. En estas últimas semanas, me encuentro enfrentando problemas de salud, lo que ha resultado en un retraso inesperado en el progreso de mi trabajo.\n\nEn vista de estas circunstancias, he decidido solicitar una prórroga de entrega de la siguiente manera:\n\n- La fecha original de entrega estaba programada para el [día de entrega original].\n- He evaluado la situación y creo que, si tengo la oportunidad de una prórroga de [días deseados], podré completar y enviar el trabajo a tiempo.\n\nMe gustaría informarte que estaré listo para entregar el trabajo el viernes [día de entrega reprogramado].\n\nQuiero agregar que disculpo sinceramente por cualquier inconveniente que este retraso pueda causar, y deseo que me entiendan en la dificultad que me enfrento en estos momentos. Si tienes cualquier preocupación o consulta, por favor no dudes en contactarme.\n\nEspero que me hayas entendido correctamente y me acompañes en estos momentos difíciles.\n\nAtentamente,\n[Tu nombre]",
+    "ttft_segundos": 9.9872,
+    "tokens_por_segundo": 5.4,
+    "tiempo_total_segundos": 47.07
+  },
+  {
+    "id": 2,
+    "categoria": "Generacion de texto",
+    "prompt": "Escribe una invitación corta para el lanzamiento de una aplicación móvil de productividad.",
+    "salida": " 📣🌟 ¡Invitamos a ustedes a un evento extraordinario! 🌟📣\n\nParticipen en el lanzamiento de nuestra nueva aplicación móvil de productividad, diseñada para transformar su vida diaria. Descubra cómo organizar su tiempo de forma más eficiente y alcanzar sus objetivos más rápidamente.\n\n📅 Fecha: Jueves, 18 de agosto\n🕒 Hora: 18:00\n📍 Sede: [Nombre de la sede]\n\nAcompáñenos para explorar una revolucionaria herramienta de productividad. ¡No olviden confirmar su asistencia!\n\nPara más información y confirmar asistencia: [Enlace al sitio web o correo electrónico]\n\n¡Esperamos verlos en el lanzamiento! 🎉🚀",
+    "ttft_segundos": 0.5217,
+    "tokens_por_segundo": 5.39,
+    "tiempo_total_segundos": 21.17
+  },
+  {
+    "id": 3,
+    "categoria": "Resumen",
+    "prompt": "Resume el siguiente texto en exactamente 3 viñetas: La inteligencia artificial ha evolucionado exponencialmente desde la llegada de la arquitectura Transformer en 2017. Los modelos actuales permiten procesar miles de millones de parámetros en segundos, transformando industrias completas como la salud, las finanzas y la educación. Sin embargo, su alto consumo energético y los dilemas éticos sobre la privacidad de los datos siguen siendo los principales desafíos para su adopción masiva a nivel global.",
+    "salida": " 1. La arquitectura Transformer ha impulsado una rápida evolución de la inteligencia artificial desde 2017.\n\n2. Actuales modelos de AI procesan miles de millones de parámetros en segundos, redefiniendo industrias globales como salud, finanzas y educación.\n\n3. A pesar de sus beneficios, la alta demanda energética y los problemas éticos sobre la privacidad de datos siguen siendo obstáculos para su uso masivo a nivel global.",
+    "ttft_segundos": 5.6926,
+    "tokens_por_segundo": 4.78,
+    "tiempo_total_segundos": 17.59
+  },
+  {
+    "id": 4,
+    "categoria": "Resumen",
+    "prompt": "Resume en una sola frase qué es la computación en la nube y cuál es su beneficio principal.",
+    "salida": " La computación en la nube es el almacenamiento y procesamiento de datos en servidores remotos en lugar de en local, ofreciendo la posibilidad de acceder a los recursos computacionales a gran escala a través de la red. Su beneficio principal es la flexibilidad y la economía, al permitir el uso de recursos computacionales en demanda, reduciendo los costos de mantenimiento y la inversión en hardware y software.",
+    "ttft_segundos": 0.5194,
+    "tokens_por_segundo": 8.79,
+    "tiempo_total_segundos": 9.9
+  },
+  {
+    "id": 5,
+    "categoria": "Correccion y traduccion",
+    "prompt": "Corrige la ortografía y redacción de esta frase: 'Ayer fuymos a ver una pelicula de intelijencia artificial y nos gusto mucho por que avian efectos espaciales'.",
+    "salida": " La frase correcta sería: \"Ayer fuimos a ver una película de inteligencia artificial y nos gustó mucho porque tenía efectos espaciales\".\n\nAdemás, para evitar confusión, es recomendable utilizar mayúsculas en el inicio de la oración y en las palabras de mayor importancia, como los títulos de la película. Por lo tanto, la frase correcta sería: \"Ayer fuimos a ver La Película de Inteligencia Artificial y nos gustó mucho porque tenía efectos espaciales\".",
+    "ttft_segundos": 1.9574,
+    "tokens_por_segundo": 6.8,
+    "tiempo_total_segundos": 13.67
+  },
+  {
+    "id": 6,
+    "categoria": "Correccion y traduccion",
+    "prompt": "Traduce al inglés manteniendo un tono profesional: 'Agradecemos de antemano su colaboración en este proyecto de investigación'.",
+    "salida": " We appreciate your anticipated collaboration in this research project.\n\nIn this context, \"anticipado\" means \"anticipated\" and \"de antemano\" means \"in advance\". So the sentence \"Agradecemos de antemano su colaboración en este proyecto de investigación\" translates to \"We appreciate your anticipated collaboration in this research project.\"",
+    "ttft_segundos": 1.8491,
+    "tokens_por_segundo": 6.64,
+    "tiempo_total_segundos": 8.73
+  },
+  {
+    "id": 7,
+    "categoria": "Codigo",
+    "prompt": "Genera una función en Python que reciba una lista de números y devuelva únicamente los números primos.",
+    "salida": " Para crear una función en Python que devuelva únicamente los números primos de una lista, podemos utilizar el siguiente código:\n\n```python\ndef es_primo(numero):\n    if numero <= 1:\n        return False\n    for i in range(2, int(numero**0.5)+1):\n        if numero % i == 0:\n            return False\n    return True\n\ndef filtrar_primos(lista):\n    primos = []\n    for numero in lista:\n        if es_primo(numero):\n            primos.append(numero)\n    return primos\n\n# Prueba de la función\nnumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 23, 29, 31, 37]\nprimos = filtrar_primos(numeros)\nprint(primos)\n```\n\nEsta función incluye dos partes: una función `es_primo()` que determina si un número es primo, y una función `filtrar_primos()` que utiliza la primera para filtrar los números primos de una lista. La función `es_primo()` comproba si el número es menor o igual a 1 (en cuyo caso no es primo), y luego verifica si el número es divisible por cualquier número menor que su raíz cuadrada (ya que cualquier número mayor que la raíz cuadrada de un número primo no puede dividirlo). Si el número no es divisible por ningún número entre 2 y su raíz cuadrada, entonces es primo.\n\nLa función `filtrar_primos()` itera sobre la lista y devuelve una nueva lista solo con los números que son primos según la función `es_primo()`.",
+    "ttft_segundos": 0.5498,
+    "tokens_por_segundo": 6.09,
+    "tiempo_total_segundos": 45.68
+  },
+  {
+    "id": 8,
+    "categoria": "Codigo",
+    "prompt": "Escribe una consulta SQL para obtener el promedio de salarios de los empleados agrupados por departamento.",
+    "salida": " Para obtener el promedio de salarios de los empleados agrupados por departamento en SQL, puede utilizar la siguiente consulta:\n\n```sql\nSELECT departamento, AVG(salario) as promedio_salario\nFROM empleados\nGROUP BY departamento;\n```\n\nEn este ejemplo, se asume que la tabla de empleados contiene las columnas \"departamento\" y \"salario\". La consulta agrupa los resultados por departamento y calcula el promedio de los salarios para cada departamento usando la función AVG().",
+    "ttft_segundos": 0.5522,
+    "tokens_por_segundo": 6.92,
+    "tiempo_total_segundos": 12.71
+  },
+  {
+    "id": 9,
+    "categoria": "Razonamiento y veracidad",
+    "prompt": "Resuelve este acertijo lógico: El padre de Clara tiene 5 hijas: Lala, Lela, Lila, Lola y... ¿quién es la quinta hija?",
+    "salida": " La quinta hija es Clara. La pregunta indica que Clara es la hija del padre de Clara, lo que significa que ella es la propia hija que se menciona en la pregunta. Por lo tanto, Clara es la quinta hija.",
+    "ttft_segundos": 2.1839,
+    "tokens_por_segundo": 7.04,
+    "tiempo_total_segundos": 7.38
+  },
+  {
+    "id": 10,
+    "categoria": "Razonamiento y veracidad",
+    "prompt": "¿En qué año se fundó la Universidad de Costa Rica y cuál es su campus principal?",
+    "salida": " La Universidad de Costa Rica (UCR) fue fundada el 22 de mayo de 1940. Su campus principal se encuentra en San José, en el barrio Belén. Este campus, conocido como Ciudad Universitaria, es uno de los mayores complejos universitarios de Centroamérica y está situado en la parte oriental de San José, en el parque metropolitano Braulio Carrillo. El campus principal de la UCR tiene un extenso parque con diversas especies vegetales, varios lagos artificiales, y un complejo de edificios que incluyen aulas, laboratorios, bibliotecas, y residencias.",
+    "ttft_segundos": 0.507,
+    "tokens_por_segundo": 7.98,
+    "tiempo_total_segundos": 13.91
+  }
+]

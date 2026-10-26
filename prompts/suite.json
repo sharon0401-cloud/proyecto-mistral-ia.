@@ -1,0 +1,54 @@
+{
+  "prompts": [
+    {
+      "id": 1,
+      "categoria": "Generacion de texto",
+      "prompt": "Redacta un correo formal solicitando una prórroga de entrega basado en: retraso por salud, entrega el viernes y disculpas sinceras."
+    },
+    {
+      "id": 2,
+      "categoria": "Generacion de texto",
+      "prompt": "Escribe una invitación corta para el lanzamiento de una aplicación móvil de productividad."
+    },
+    {
+      "id": 3,
+      "categoria": "Resumen",
+      "prompt": "Resume el siguiente texto en exactamente 3 viñetas: La inteligencia artificial ha evolucionado exponencialmente desde la llegada de la arquitectura Transformer en 2017. Los modelos actuales permiten procesar miles de millones de parámetros en segundos, transformando industrias completas como la salud, las finanzas y la educación. Sin embargo, su alto consumo energético y los dilemas éticos sobre la privacidad de los datos siguen siendo los principales desafíos para su adopción masiva a nivel global."
+    },
+    {
+      "id": 4,
+      "categoria": "Resumen",
+      "prompt": "Resume en una sola frase qué es la computación en la nube y cuál es su beneficio principal."
+    },
+    {
+      "id": 5,
+      "categoria": "Correccion y traduccion",
+      "prompt": "Corrige la ortografía y redacción de esta frase: 'Ayer fuymos a ver una pelicula de intelijencia artificial y nos gusto mucho por que avian efectos espaciales'."
+    },
+    {
+      "id": 6,
+      "categoria": "Correccion y traduccion",
+      "prompt": "Traduce al inglés manteniendo un tono profesional: 'Agradecemos de antemano su colaboración en este proyecto de investigación'."
+    },
+    {
+      "id": 7,
+      "categoria": "Codigo",
+      "prompt": "Genera una función en Python que reciba una lista de números y devuelva únicamente los números primos."
+    },
+    {
+      "id": 8,
+      "categoria": "Codigo",
+      "prompt": "Escribe una consulta SQL para obtener el promedio de salarios de los empleados agrupados por departamento."
+    },
+    {
+      "id": 9,
+      "categoria": "Razonamiento y veracidad",
+      "prompt": "Resuelve este acertijo lógico: El padre de Clara tiene 5 hijas: Lala, Lela, Lila, Lola y... ¿quién es la quinta hija?"
+    },
+    {
+      "id": 10,
+      "categoria": "Razonamiento y veracidad",
+      "prompt": "¿En qué año se fundó la Universidad de Costa Rica y cuál es su campus principal?"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  inference_app:
+    build: .
+    container_name: mi_contenedor_ia
+    volumes:
+      - ./results:/app/results
+    network_mode: "host" # Permite al contenedor conectarse al Ollama de tu máquina
